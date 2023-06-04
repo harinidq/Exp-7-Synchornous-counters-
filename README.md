@@ -88,6 +88,7 @@ endmodule
 
 ```
 # DOWNCOUNTER
+```
 module downc(clk,A);
 input clk;
 output reg[0:3]A;
@@ -99,7 +100,7 @@ begin
 	A[3]=1^A[3];
 end
 endmodule
-
+```
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
